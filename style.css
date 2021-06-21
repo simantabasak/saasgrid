@@ -1,0 +1,259 @@
+.header{
+    background-color: #3865f2;
+}
+
+.header .btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 11px 27px;
+}
+.header .btn:hover{
+    color: #3865f2;
+}
+.header ul li a{
+   color: white;
+   text-decoration: none;
+   padding: 0 20px; 
+   font-size: 17px;
+   font-weight: 500;
+}
+.header h1{
+    margin-top: 50px;
+    font-weight: 700;
+}
+.header p{
+    padding: 20px 0;
+    font-size: 17px;
+}
+.header .button .bit{
+    color: #3865f2;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.header .button .bit:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.play-button a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: blue !important;
+    position: relative;
+    
+}
+.play-button a::after{
+    content: "";
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: play 2s linear infinite;
+}
+.play-button a:hover{
+    background-color: black;
+    color: #fff !important;
+}
+@keyframes play{
+        0%{
+            transform: scale(1);
+        }
+        75%{
+            transform: scale(1.2);
+            
+        }
+        100%{ transform: scale(1.5);
+            opacity: 0;}
+}
+.header .button span{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.experience{
+    background-color: #f9f9f9;
+}
+.experience .write p{
+    color: #606060;
+    padding: 20px 400px;
+}
+.experience .write h1{
+    padding: 0 400px;
+}
+.experience .card i{
+    margin-bottom: 15px;
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+    background-color: #3865f2;
+    color: white;
+    text-align: center;
+}
+.experience .card p{
+    color: #606060;
+    padding-right: 15px;
+}
+.experience .card{
+    transition: .5s;
+}
+.experience .card:hover{
+    box-shadow: 2px 2px 10px gray;
+    box-sizing: border-box;
+    transform: translateY(-10px);
+}
+.fb i{
+    height:70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    background-color: #3865f2;
+    color: white;
+}
+.fb h1{
+    padding: 20px 0;
+}
+.fb p{
+    color: #606060;
+}
+.fb .btn{
+    margin: 25px 0;
+}
+.fb .card img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.trust{
+    background-color: #3865f2;
+    padding: 100px 0;
+}
+.tytle p{
+    padding: 10px 400px;
+}
+.team .icon{
+    margin-left: 200px;
+}
+.team .card{
+    transition: .5s;
+}
+.team .card:hover{
+    transform: translateY(-10px);
+}
+
+.client{
+    background-color: #f9f9f9;
+}
+.couresel .carousel-inner .captio a img{
+    display: block;
+    height: 90px;
+    width: 150px;
+}
+.couresel .carousel-inner .captio img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+.couresel .carousel-inner .captio h6{
+    color: #606060;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+.couresel .carousel-inner .captio h5{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.couresel .carousel-inner .captio p{
+    padding: 0px 230px;
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #606060;
+}
+.couresel .bb{
+    height: 5px;
+    width: 10px;
+    border-radius: 25%;
+    border: none;
+    margin: 0px 5px;
+    background-color: rgb(245, 187, 177);
+}
+.couresel .carousel-indicators .active{
+    background-color: #3865f2;
+    width: 20px;
+}
+
+.boost{
+    background-color: #3865f2;
+    color: #fff;
+    padding: 100px 0;
+}
+.boost h1{
+    padding: 0 320px;
+}
+.boost p{
+    padding: 25px 330px;
+}
+.blog .icon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.blog .title p{
+    padding-right: 15px;
+    color: #606060;
+}
+.blog .card .image img{
+    transform: scale(1);
+    transition: .4s;
+}
+.blog .card .image{    
+    height: 245px;
+    width: 415px;
+    overflow: hidden;
+}
+.blog .card:hover img{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: #081828;
+    color: white;
+    padding: 50px;
+}
+.footer p{
+    padding: 25px 0;
+}
+.footer ul{
+    padding: 0;
+}
+.footer h5{
+    margin-bottom: 20px;
+}
+.footer ul li{
+    padding: 3px 7px;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: #3865f2;
+}
